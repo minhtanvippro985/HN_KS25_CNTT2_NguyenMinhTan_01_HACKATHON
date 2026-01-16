@@ -1,0 +1,166 @@
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACKATHON</title>
+    <link rel="stylesheet" href="./stylehackathon.css">
+</head>
+
+<body>
+    <nav>
+        <span>🌸 Ngày xuân quê em</span>&ThickSpace;
+        <span>🧧 Lì xì may mắn</span>&ThickSpace;
+        <span>🍃 Lá đong bánh chưng</span>&ThickSpace;
+    </nav>
+    <header id="header">
+        <h1>Chuyến Xe về Nhà </h1>
+        <br>
+        <hr>
+
+        <p>Tết là khi ta trở về</p>
+        <button type="submit">
+            Gửi Lời Chúc về nhà
+        </button>
+    </header>
+    <div class="container_stuff">
+        <h2>Cuối năm - người ta chỉ mong một chuyến xe</h2>
+        <p>Khi phó lên đèn , người ta bắt đầu đếm ngược từng ngày .
+            Những chiếc túi quà được gói vội , những chuyến
+            xe kín chỗ , và những cuôc gọi hỏi nhau : <b>"Khi nào về?</b>
+        </p>
+        <p>Với người xa quê ,Têt không chỉ là mâm cơm hay pháo hoa .
+            Tết là khoảnh khắc bước qua cánh cửa nhà ,
+            Nghe một câu giản dị : <em>"Về rồi hả con?</em>
+        </p>
+        <div class="smaller_container">
+            <p>"Dù bạn ở đâu , Tết vẫn đang chờ bạn về nhà."</p>
+        </div>
+    </div>
+    <div class="table_container_first">
+        <h2 style="color: red;">Những người trên chuyến xe cuối năm</h2>
+        <table class="styled_table">
+            <thead>
+                <th>Nhân vật</th>
+                <th>Vai trò</th>
+                <th>Chuyện Cuối năm</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mai</td>
+                    <td>Sinh viên năm cuối </td>
+                    <td>Lần đầu thực tập , tiết kiệm từng khoản nhưng vẫn
+                        mua vé về quê ăn Tết
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tuấn</td>
+                    <td>Nhân viên văn phòng</td>
+                    <td>Chạy deadline tới 29 Tết , chỉ mong kịp bữa cơm giao thừa về với Ba Mẹ</td>
+                </tr>
+                <tr>
+                    <td>Bà Năm</td>
+                    <td>Mẹ Ở que</td>
+                    <td>Sáng nào cũng quét lại sân , chuẩn bị mứt , nấu bánh - chỉ đẻ chờ con về.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="table_container_first">
+        <h2 style="color: red;">Gian hàng xuân quê em</h2>
+        <p>Một góc chợ Tết nhỏ : mua môt món quà , gửi một chút yêu thương về nhà.</p>
+        <table class="styled_table" id="gianhang">
+            <thead>
+                <th>Hình</th>
+                <th>Món tết </th>
+                <th>Giá</th>
+                <th>Mô tả</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>🍃</td>
+                    <td>Lá dong</td>
+                    <td>15.000d</td>
+                    <td>Gói bánh chưng , thơm mùi Tết quê</td>
+                </tr>
+                <tr>
+                    <td>🎂</td>
+                    <td>Bánh chưng</td>
+                    <td>80.000đ</td>
+                    <td>Nếp dẻo , đậu xanh bùi , thịt mỡ vừa</td>
+                </tr>
+                <tr>
+                    <td>🍬</td>
+                    <td>Mứt Tết</td>
+                    <td>50.000đ</td>
+                    <td>Mứt dừa , gừng , quất - đủ vị ngày xuân</td>
+                </tr>
+                <tr>
+                    <td>🧧</td>
+                    <td>Bao lì xì</td>
+                    <td>20.000đ</td>
+                    <td>Bộ 10 cái , sắc đỏ may mắn.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="form-container" id="formner">
+        <h2 style="color: red;">Gửi lời chúc về nhà</h2>
+        <p>Viết vài dòng gửi về gia đình - để Tết ở gần hơn một chút</p>
+        <form>
+            <label for="" id="req">Họ Tên</label>
+            <br>
+            <input type="text" placeholder="Ví dụ : Nguyễn Văn A" required>
+            <br>
+            <label for="" id="req">Email</label>
+            <br>
+            <input type="email" placeholder="vidu@email.com" required>
+            <br>
+            <label for="" id="req">Số điện thoại</label>
+            <br>
+            <input type="tel" placeholder="90xx xxx xxx" required>
+            <br>
+            <p id="req"><b>Người nhận</b></p>
+            <div class="radio_container">
+
+                <label for="">Cha</label>
+                <input name="relative" type="radio" id="choosing_radio">
+                <br>
+                <label for="">Mẹ</label>
+                <input name="relative" type="radio" id="choosing_radio">
+                <br>
+                <label for="">Ông bà</label>
+                <input name="relative" type="radio" id="choosing_radio">
+            </div>
+            <br>
+            <label for="" id="req">Lời chúc</label>
+            <br>
+            <textarea placeholder="Con chúc..."></textarea>
+            <br>
+            <br>
+            <button type="submit">Gửi lời chúc</button>
+        </form>
+    </div>
+    <div class="final_container">
+        <h2>Liên Hệ</h2>
+        <p>Nếu bạn muốn góp thêm câu chuyện cuối năm , hãy để lại thông tin</p>
+        <div class="Box_final_container">
+            <p><b> 📍Địa điểm</b> : Làng xuân ptit</p>
+            <p><b>&ThinSpace; Hotline</b> : 0123 456 789</p>
+            <p><b>&ThinSpace; Email </b> : ptit@gmail.vn</p>
+        </div>
+    </div>
+</body>
+<footer>
+    <p>&copy;2026 Ngày Xuân quê em 💿 "Dù bạn ở đâu , Tết vẫn đang chờ bạn về nhà"</p>
+    <br>
+    <br>
+    <a href="#header" id="done">Về Đầu Trang</a> |
+    <a href="#gianhang" id="done">Gian Hàng</a> |
+    <a href="#former" id="done">Gửi Lời chúc</a>
+
+</footer>
+
+</html>
